@@ -20,11 +20,13 @@ header {
   line-height: 21.6px;
   font-size: 18px;
   color: white;
+  margin-right: -70px;
 }
 #img1 {
   width: 124.5px;
   height: 31px;
   align-self: center;
+  margin-left: -10px;
 }
 .txt_header {
   font-family: Urbanist;
@@ -32,6 +34,7 @@ header {
   line-height: 21.6px;
   font-size: 18px;
   color: black;
+  margin-top: 16px;
 }
 #txt_header {
   font-family: Urbanist;
@@ -39,6 +42,8 @@ header {
   line-height: 18px;
   font-size: 18px;
   color: red;
+  margin-top: 17px;
+  margin-left: -6px;
 }
 #bg {
   display: flex;
@@ -55,6 +60,7 @@ header {
   width: 890px;
   height: 140px;
   text-align: center;
+  margin-left: 24px;
 }
 #txt_bg2 {
   font-family: Urbanist;
@@ -66,7 +72,7 @@ header {
   height: 56px;
   text-align: center;
   margin-top: -24px;
-  margin-left: -100px;
+  margin-left: -80px;
 }
 #search_zx {
   position: relative;
@@ -74,7 +80,7 @@ header {
   margin-top: 20px;
 }
 #search {
-  width: 810px;
+  width: 755px;
   height: 82px;
   border: none;
   border-radius: 15px;
@@ -82,18 +88,21 @@ header {
   box-shadow: 0px 4px 80px 0px rgba(175, 173, 181, 0.2);
   padding-left: 50px;
   font-size: 16px;
+  margin-left: 24px;
 }
 #search::placeholder {
-  color: #999;
-  font-size: 16px;
-  padding-top: 30px;
-  padding-left: 10px;
+  color: #AFADB5;
+  font-size: 18px;
+  padding-left: 15px;
+  line-height: 21.6px;
   font-family: Urbanist;
+  height: 20px;
+  padding-top: 10px;
 }
 #search_button {
   position: absolute;
-  top: 50%;
-  right: 20px;
+  top: 54%;
+  right: 14px;
   transform: translateY(-50%);
   border: none;
   border-radius: 10px;
@@ -108,8 +117,8 @@ header {
 }
 #ic2 {
   position: absolute;
-  top: 50%;
-  left: 20px;
+  top: 54%;
+  left: 54px;
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
@@ -117,17 +126,18 @@ header {
 #long {
   width: 1720px;
   height: 628px;
-  border-radius: 24px;
-  margin-top: -36px;
+  border-radius: 28px;
+  margin-top: -38px;
+  margin-left: 18px;
 }
 #str {
   z-index: 1;
-  margin-left: 90px;
+  margin-top: -50px;
 }
 #str_div {
   display: flex;
   align-items: center;
-  margin: -120px 0 -120px -350px;
+  margin: -108px 0 -100px -192px;
 }
 #mission {
   display: flex;
@@ -143,6 +153,7 @@ header {
   color: #151411;
   width: 390px;
   height: 120px;
+  margin-left: 20px;
 }
 #mission_button {
   font-family: Urbanist;
@@ -155,7 +166,8 @@ header {
   border: none;
   border-radius: 10px;
   background-color: #236000;
-  margin-top: -8px;
+  margin-top: -15px;
+  margin-left: 22px;
 }
 #mission_with_txt {
   display: flex;
@@ -166,7 +178,10 @@ header {
   display: flex;
   flex-direction: column;
   width: 690px;
-  margin-top: 106px;
+  margin-top: 105px;
+}
+#mission_zx {
+  margin-top: 11px;
 }
 #mission_only_txt p {
   font-family: Urbanist;
@@ -188,12 +203,15 @@ main {
   font-size: 45px;
   color: black;
   text-align: center;
+  margin-left: 62px;
+  margin-top: 222px;
 }
 #main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  margin-left: 60px;
 }
 #main figure {
   position: relative;
@@ -234,11 +252,11 @@ main {
   width: 55px;
   height: 55px;
   color: #236000;
-  border: 2px solid #236000;
+  border: 1px solid #236000;
   background-color: white;
   border-radius: 50px;
   font-size: 20px;
-  margin-right: 20px;
+  margin-right: 16px;
 }
 #button button:nth-child(2) {
   width: 55px;
@@ -255,6 +273,7 @@ main {
   line-height: 60px;
   font-size: 45px;
   color: #151411;
+  margin-left: 65px;
 }
 #s {
   font-family: Urbanist;
@@ -271,7 +290,8 @@ main {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 40px;
+  margin-top: -20px;
+  margin-left: -20px;
 }
 #imgs img {
   border-radius: 32px;
@@ -310,13 +330,17 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 240px;
+  gap: 44px;
+  margin-left: 40px;
 }
 #type #type_margin {
-  margin-right: -40px;
+  margin-right: -56px;
+  margin-top: -18px;
 }
 #type_txt {
   display: flex;
   flex-direction: column;
+  margin-left: 6px;
 }
 #type_txt p:nth-child(1) {
   font-family: Urbanist;
@@ -324,8 +348,7 @@ main {
   line-height: 60px;
   font-size: 45px;
   color: #151411;
-  margin-top: 86px;
-  margin-bottom: 0px;
+  margin: 86px 0 0 0px;
 }
 #type_txt p:nth-child(2) {
   font-family: Urbanist;
@@ -334,12 +357,14 @@ main {
   font-size: 16px;
   color: #AFADB5;
   width: 575px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 #type_vectors {
   display: flex;
   gap: 75px;
-  margin-top: 16px;
-  align-items: end;
+  margin-top: 22px;
+  align-items: start;
 }
 #type_vectors img:nth-child(1) {
   width: 63.23px;
@@ -360,9 +385,9 @@ main {
 #type_imgs {
   display: flex;
   justify-content: center;
-  margin-top: -5px;
-  margin-left: -20px;
-  gap: 19px;
+  margin-top: -4px;
+  margin-left: 60px;
+  gap: 32px;
 }
 #type_imgs figure {
   margin: -16px;
@@ -372,7 +397,7 @@ main {
 }
 .type_figure figcaption:nth-child(2) {
   position: absolute;
-  bottom: 50px;
+  bottom: 54px;
   left: 40px;
   font-family: Urbanist;
   font-weight: 600;
@@ -382,8 +407,8 @@ main {
 }
 .type_figure figcaption:nth-child(3) {
   position: absolute;
-  left: 373px;
-  bottom: 30px;
+  left: 354px;
+  bottom: 36px;
   color: white;
   border: 2px solid white;
   border-radius: 34px;
@@ -394,7 +419,7 @@ main {
 }
 #type_fig {
   position: absolute;
-  left: 613px;
+  left: 594px;
 }
 #hospotzx {
   display: flex;
@@ -402,27 +427,33 @@ main {
   flex-direction: column;
 }
 #hospot {
-  margin: 130px 0px 0px -10px;
+  margin: 132px 0px 0px 60px;
   display: flex;
 }
 #find {
   width: 1635px;
   height: 611px;
   background-color: #112E00;
-  margin-left: 275px;
+  margin-left: 346px;
   display: flex;
+  border-radius: 0 0 0 30px;
 }
 .find_txt {
+  font-family: Urbanist;
+  font-weight: 500;
+  line-height: 50.4px;
+  font-size: 42px;
+  color: white;
+  margin-top: -20px;
+}
+#find_txt1 {
+  width: 540px;
+  margin-top: 120px;
   font-family: Urbanist;
   font-weight: 700;
   line-height: 60px;
   font-size: 45px;
   color: white;
-  margin: 0px;
-}
-#find_txt1 {
-  width: 540px;
-  margin-top: 108px;
 }
 .find_txt2 {
   font-family: Urbanist;
@@ -430,8 +461,11 @@ main {
   line-height: 19.2px;
   font-size: 16px;
   color: #AFADB5;
-  margin: 0px;
+  margin-top: -40px;
   width: 122px;
+}
+.find_txte {
+  margin-left: -26px;
 }
 #find_first_div {
   margin-left: 120px;
@@ -442,7 +476,7 @@ main {
   column-gap: 70px;
   row-gap: 10px;
   width: 468px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .find_txt {
   grid-row: 1;
@@ -455,8 +489,8 @@ main {
   flex-direction: column;
   width: 62px;
   height: 62px;
-  margin-top: 90px;
-  margin-left: 90px;
+  margin-top: 106px;
+  margin-left: 50px;
   gap: 38px;
 }
 #find_ne_last_div figure {
@@ -492,6 +526,7 @@ main {
   color: #151411;
   text-align: center;
   margin-top: 120px;
+  margin-left: 63px;
 }
 #last_div {
   display: flex;
@@ -514,13 +549,15 @@ main {
   height: 296px;
 }
 .lastlast1 {
-  width: 107.49px;
-  height: 21.5px;
+  width: 120px;
+  height: 25px;
   color: #236000;
-  font-size: 21.5px;
+  font-size: 25px;
+  margin-left: -4px;
+  margin-top: 22px;
 }
 .lastlast2 {
-  margin: 20px 0 0 130px;
+  margin: 30px 0 0 110px;
 }
 .lastlast3 {
   grid-area: 2/1;
@@ -529,6 +566,8 @@ main {
   line-height: 24px;
   font-size: 20px;
   color: #151411;
+  margin-top: 34px;
+  margin-left: -5px;
 }
 .lastlast4 {
   grid-area: 3/1;
@@ -537,6 +576,8 @@ main {
   line-height: 28px;
   font-size: 16px;
   color: #AFADB5;
+  margin-top: 32px;
+  margin-left: -5px;
 }
 .lastlast5 {
   grid-area: 4/1/4/3;
@@ -545,6 +586,8 @@ main {
   line-height: 30px;
   font-size: 16px;
   color: #AFADB5;
+  margin-top: 37px;
+  margin-left: -5px;
 }
 #center_last_img {
   margin-left: 65px;
@@ -578,17 +621,19 @@ main {
   display: flex;
   justify-content: center;
   gap: 12px;
+  margin-top: 36px;
+  margin-left: 66px;
 }
 #left {
-  margin-right: 38px;
+  margin-right: 45px;
 }
 #right {
-  margin-left: 38px;
+  margin-left: 40px;
 }
 footer {
   width: 100%;
   display: flex;
-  margin: 218px 0 0 -8px;
+  margin: 212px 0 0 -8px;
 }
 #footer_bg {
   width: 975px;
@@ -600,10 +645,11 @@ footer {
   width: 124.48px;
   height: 31px;
   margin-left: 365px;
-  margin-top: 80px;
+  margin-top: 76px;
 }
 #footer_bg div {
   display: flex;
+  margin-top: -2px;
   gap: 1px;
 }
 #footer_bg div #footer_p1 {
@@ -623,7 +669,7 @@ footer {
   margin-top: 40px;
 }
 #footer_bg #footer_p3 {
-  margin-top: 236px;
+  margin-top: 218px;
 }
 #footer_without_bg {
   margin-left: 87px;
@@ -634,7 +680,7 @@ footer {
   line-height: 60px;
   font-size: 45px;
   color: #151411;
-  margin-top: 0px;
+  margin-top: -4px;
 }
 #footer_without_bg #footer_without_bg_p2 {
   font-family: Urbanist;
@@ -643,7 +689,7 @@ footer {
   font-size: 16px;
   color: #AFADB5;
   width: 575px;
-  margin-top: -26px;
+  margin-top: -28px;
 }
 #footer_without_bg button {
   font-family: Urbanist;
@@ -679,5 +725,5 @@ footer {
   line-height: 28px;
   font-size: 16px;
   color: #AFADB5;
-  margin-top: 64px;
+  margin-top: 58px;
 }

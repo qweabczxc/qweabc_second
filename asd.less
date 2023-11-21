@@ -27,16 +27,21 @@ header{
     border-radius: 10px;
     gap: 10px;
     .text(500,18px,21.6px,white);
+    margin-right: -70px;
 }
 #img1{
     .img(124.5px ,31px);
     align-self: center;
+    margin-left: -10px;
 }
 .txt_header{
     .text(400,18px,21.6px,black);
+    margin-top: 16px;
 }
 #txt_header{
     .text(500,18px,18px,red);
+    margin-top: 17px;
+    margin-left: -6px;
 }
 #bg{
     display: flex;
@@ -48,22 +53,26 @@ header{
     .text(700,55px,70px,black);
     width: 890px; height: 140px;
     text-align: center;
+    margin-left: 24px;
+    
 }
 #txt_bg2{
     .text(400,16px,28px,#AFADB5);
     width: 790px; height: 56px;
     text-align: center;
     margin-top: -24px;
-    margin-left: -100px;
+    margin-left: -80px;
+
 }
+
 #search_zx {
     position: relative;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 20px; 
   }
-  
+
   #search {
-    width: 810px;
+    width: 755px;
     height: 82px;
     border: none;
     border-radius: 15px;
@@ -71,21 +80,23 @@ header{
     box-shadow: 0px 4px 80px 0px rgba(175, 173, 181, 0.20);
     padding-left: 50px;
     font-size: 16px;
-    
+    margin-left: 24px;
   }
   
   #search::placeholder {
-    color: #999;
-    font-size: 16px;
-    padding-top: 30px;
-    padding-left: 10px;
+    color: #AFADB5;
+    font-size: 18px;
+    padding-left: 15px;
+    line-height: 21.6px;
     font-family: Urbanist;
+    height: 20px;
+    padding-top: 10px;
   }
   
   #search_button {
     position: absolute;
-    top: 50%;
-    right: 20px;
+    top: 54%;
+    right: 14px;
     transform: translateY(-50%);
     border: none;
     border-radius: 10px;
@@ -97,25 +108,27 @@ header{
   
   #ic2 {
     position: absolute;
-    top: 50%;
-    left: 20px;
+    top: 54%;
+    left: 54px;
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
   }
 #long{
     .img(1720px,628px);
-    border-radius: 24px;
-    margin-top: -36px;
+    border-radius: 28px;
+    margin-top: -38px;
+    margin-left: 18px;
 }
 #str{
     z-index: 1;
-    margin-left: 90px;
+    margin-top: -50px;
 }
 #str_div{
     display: flex;
     align-items: center;
-    margin: -120px 0 -120px -350px;
+    margin: -108px 0 -100px -192px;
+    
 }
 #mission{
     display: flex;
@@ -127,13 +140,14 @@ header{
     .text(700,45px,60px,#151411);
     width: 390px;
     height: 120px;
+    margin-left: 20px;
 }
 #mission_button{
     .text(500,18px,21.6px,white);
     width: 188px; height: 52px;
     border: none; border-radius: 10px;
     background-color:#236000;
-    margin-top: -8px;
+    margin-top: -15px; margin-left: 22px;
 }
 #mission_with_txt{
     display: flex;
@@ -145,7 +159,10 @@ header{
     display: flex;
     flex-direction: column;
     width: 690px;
-    margin-top: 106px;
+    margin-top: 105px;
+}
+#mission_zx{
+    margin-top: 11px;
 }
 #mission_only_txt p{
     .text(400,16px,28px,#AFADB5);
@@ -159,12 +176,15 @@ main {
 #shop{
     .text(700,45px,60px,black);
     text-align: center;
+    margin-left: 62px;
+    margin-top: 222px;
 }
 #main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    margin-left: 60px;
 }
 #main figure{
     position: relative;
@@ -195,11 +215,11 @@ main {
 #button button:nth-child(1){
     width: 55px; height: 55px;
     color: #236000;
-    border: 2px solid #236000;
+    border: 1px solid #236000;
     background-color: white;
     border-radius: 50px;
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 16px;
 }
 #button button:nth-child(2){
     width: 55px; height: 55px;
@@ -211,6 +231,7 @@ main {
 }
 #f{
     .text(700,45px,60px,#151411);
+    margin-left: 65px;
 }
 #s{
     .text(400,16px,28px,#AFADB5);
@@ -221,7 +242,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 40px;
+    margin-top: -20px; margin-left: -20px;
 }
 #imgs img{
     border-radius: 32px;
@@ -247,30 +268,33 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 240px;
+    gap: 44px;
+    margin-left: 40px;
     #type_margin{
-        margin-right: -40px;
+        margin-right: -56px;
+        margin-top: -18px;
     }
 }
 #type_txt{
     display: flex;
     flex-direction: column;
-    
+    margin-left: 6px;
 }
 #type_txt p:nth-child(1){
     .text(700,45px,60px,#151411);
-    margin-top: 86px;
-    margin-bottom: 0px;
+    margin: 86px 0 0 0px;
+    
 }
 #type_txt p:nth-child(2){
     .text(400,16px,28px,#AFADB5);
     width: 575px;
-    
+    margin-left: 0px; margin-right: 0px;
 }
 #type_vectors{
     display: flex;
     gap: 75px;
-    margin-top: 16px;
-    align-items: end;
+    margin-top: 22px;
+    align-items: start;
 }
 #type_vectors img:nth-child(1){
     .img(63.23px,42.48px);
@@ -287,19 +311,19 @@ main {
 #type_imgs{
     display: flex;
     justify-content: center;
-    margin-top: -5px; margin-left: -20px;
-    gap: 19px;
+    margin-top: -4px; margin-left: 60px;
+    gap: 32px;
 }
 #type_imgs figure{margin: -16px;}
 .type_figure{position: relative;}
 .type_figure figcaption:nth-child(2){
     position: absolute;
-    bottom: 50px; left: 40px;
+    bottom: 54px; left: 40px;
     .text(600,20px,24px,#FFFFFF);
 }
 .type_figure figcaption:nth-child(3){
     position: absolute;
-    left:373px; bottom: 30px;
+    left:354px; bottom: 36px;
     color: white;
     border: 2px solid white;
     border-radius: 34px;
@@ -310,37 +334,43 @@ main {
 }
 #type_fig{
         position: absolute;
-        left: 613px;
+        left: 594px;
 }
 #hospotzx{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+ 
 }
 #hospot{
-    margin: 130px 0px 0px -10px;
+    margin: 132px 0px 0px 60px;
     display: flex;
 
 }
 #find{
     .img(1635px,611px);
     background-color: #112E00;
-    margin-left: 275px;
-    display: flex
+    margin-left: 346px;
+    display: flex;
+    border-radius: 0 0 0 30px;
 }
 .find_txt{
-    .text(700,45px,60px,white);
-    margin: 0px;
+    .text(500,42px,50.4px,white);
+    margin-top: -20px;
 }
+
 #find_txt1{
     width: 540px;
-    margin-top: 108px;
+    margin-top: 120px; 
+    .text(700,45px,60px,white);
 }
 .find_txt2{
     .text(500,16px,19.2px,#AFADB5);
-    margin: 0px;
+    margin-top: -40px;
     width: 122px;
+}
+.find_txte{
+    margin-left: -26px;
 }
 #find_first_div{
     margin-left: 120px;
@@ -351,7 +381,7 @@ main {
     column-gap: 70px;
     row-gap: 10px;
     width: 468px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .find_txt {
     grid-row: 1;
@@ -364,7 +394,7 @@ main {
     display: flex;
     flex-direction: column;
     .img(62px,62px);
-    margin-top: 90px; margin-left:90px;
+    margin-top: 106px; margin-left:50px;
     gap: 38px;
     figure{
         position: relative;
@@ -386,7 +416,7 @@ main {
 #last_first{
     .text(700,45px,60px,#151411);
     text-align: center;
-    margin-top: 120px;
+    margin-top: 120px; margin-left: 63px;
 }
 #last_div{
     display: flex;
@@ -406,26 +436,29 @@ opacity: 10%;
 }
 #left_last_img{.img(245px,296px);}
 .lastlast1{
-    width: 107.49px;
-    height: 21.5px;
+    width: 120px;
+    height: 25px;
     color: #236000;
-    font-size: 21.5px;
-
+    font-size: 25px;
+    margin-left: -4px; margin-top: 22px;
 }
 .lastlast2{
-    margin: 20px 0 0 130px;
+    margin: 30px 0 0 110px;
 }
 .lastlast3{
     grid-area: 2/1;
     .text(600,20px,24px,#151411);
+    margin-top: 34px; margin-left: -5px;
 }
 .lastlast4{
     grid-area: 3/1;
     .text(400,16px,28px,#AFADB5);
+    margin-top: 32px; margin-left: -5px;
 }
 .lastlast5{
     grid-area: 4/1/4/3;
     .text(400,16px,30px,#AFADB5);
+    margin-top: 37px; margin-left: -5px;
 }
 #center_last_img{
     margin-left: 65px;
@@ -456,13 +489,14 @@ opacity: 10%;
     display: flex;
     justify-content: center;
     gap: 12px;
+    margin-top: 36px; margin-left: 66px;
 }
-#left{ margin-right: 38px; }
-#right{ margin-left: 38px; }
+#left{ margin-right: 45px; }
+#right{ margin-left: 40px; }
 footer{
     width: 100%;
     display: flex;
-    margin: 218px 0 0 -8px;
+    margin: 212px 0 0 -8px;
 }
 #footer_bg{
     .img(975px,511px);
@@ -472,10 +506,11 @@ footer{
     
     img{
         .img(124.48px,31px);
-        margin-left: 365px; margin-top: 80px;
+        margin-left: 365px; margin-top: 76px;
     }
     div{
         display: flex;
+        margin-top: -2px;
         #footer_p1{width: 126px;}
         #footer_p2{
             width: 164px;
@@ -489,19 +524,19 @@ footer{
     margin-left: 365px; margin-top: 40px;
     }
     #footer_p3{
-        margin-top: 236px;
+        margin-top: 218px;
     }
 }
 #footer_without_bg{
     margin-left: 87px;
     #footer_without_bg_p1{
         .text(700,45px,60px,#151411);
-        margin-top: 0px;
+        margin-top: -4px;
     }
     #footer_without_bg_p2{
         .text(400,16px,28px,#AFADB5);
         width: 575px;
-        margin-top: -26px;
+        margin-top: -28px;
     }
     button{
         .text(500,18px,21.6px,#FFFFFF);
@@ -522,7 +557,7 @@ footer{
         gap:463px;
         p{
             .text(400,16px,28px,#AFADB5);
-            margin-top: 64px;
+            margin-top: 58px;
         }
     }
 
